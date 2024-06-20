@@ -1,24 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from '../src/components/Composants de Base/Header/Header';
-import Footer from '../src/components/Composants de Base/Footer/Footer';
-import Home from '../src/pages/Home/Home'
-import About from '../src/pages/About/About';
-import Projects from '../src/pages/Projects/Projects';
-import Contact from '../src/pages/Contact/Contact';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/Composants de Base/Header/Header';
+import Footer from './components/Composants de Base/Footer/Footer';
+import Home from './pages/Home/Home'
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+
 
 function App() {
+
   return (
-    <Router>
+    <BrowserRouter >
       <Header />
       <Routes>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 

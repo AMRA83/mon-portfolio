@@ -1,7 +1,7 @@
 import React from 'react';
 import './Banner.scss';
 import imageBanner from './imageBanner.webp'
-const Banner = () => {
+function Banner() {
     return (
         <section className="section-presentation">
 
