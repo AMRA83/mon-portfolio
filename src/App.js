@@ -5,7 +5,7 @@ import Footer from './components/Composants de Base/Footer/Footer';
 import Home from './pages/Home/Home'
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
-
+import ProjectDetail from './pages/ProjectDetail/ProjectDetail';
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-
+        <Route path="/projet/:id" element={<ProjectDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>

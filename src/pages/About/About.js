@@ -20,6 +20,9 @@ function About() {
                     Toujours passionnée par les Lego, j'ai trouvé un lien entre la programmation et les Lego.
                     Actuellement en cours d'une formation intensive d'intégrateur web à temps plein chez OpenClassrooms. Cette formation, entièrement à distance, m'a permis d'explorer en profondeur l'intégration de sites web dynamiques avec React, Redux, ainsi que l'optimisation, le SEO et le débogage. Durant ce parcours, j'ai eu l'opportunité de collaborer avec des mentors experts dans leur domaine, ce qui a enrichi mon expérience et accéléré mon apprentissage. À travers douze projets professionnalisants, j'ai développé une solide expertise en gestion de projet web, de la conception au déploiement.
                 </p>
+                <p>
+                    Je tiens à remercier les mentors et les evaluateurs pour leur bienveillance et leur professionalisme.
+                </p>
             </section>
             <section className='loisirs-section'>
                 <h1>Loisirs</h1>

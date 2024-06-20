@@ -1,0 +1,46 @@
+.project-detail {
+    padding: 2rem;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .links {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            color: #000;
+            font-size: 1rem;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+
+    .tags {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            color: #000;
+        }
+    }
+}
