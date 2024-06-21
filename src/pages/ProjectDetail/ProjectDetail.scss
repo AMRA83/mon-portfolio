@@ -1,46 +1,53 @@
 .project-detail {
     padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
 
     h2 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: #333;
     }
 
     img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #666;
     }
 
     .links {
-        display: flex;
-        gap: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 
         a {
-            display: flex;
+            margin: 0 1rem;
+            color: #007acc;
+            font-size: 1.2rem;
+            display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            text-decoration: none;
-            color: #000;
-            font-size: 1rem;
+            text-decoration: none; // Remove underline
 
             svg {
-                width: 1.5rem;
-                height: 1.5rem;
+                margin-right: 0.5rem;
             }
         }
     }
 
     .tags {
         display: flex;
-        gap: 0.5rem;
-        margin-top: 1rem;
+        justify-content: center;
+        gap: 1rem;
 
         svg {
-            width: 2rem;
-            height: 2rem;
-            color: #000;
+            width: 30px;
+            height: 30px;
+            color: #000; // Change icon color to black
         }
     }
 }
